@@ -147,15 +147,15 @@ header .nav-1{ margin: auto;}
 .wrap-7 .bizland{background: url("../img/bootstrap.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .bizland:hover{background-position-y: bottom;  transition: all 5s ease-in;}
 
-.wrap-8{background: #ff0072; color: #0f0c29; padding: 30px 0; text-align: center;}
-.wrap-8 a{color: #0f0c29;margin-top: 10px; display: inline-block;}
+.wrap-8{background: #201961; color: #ff0072; padding: 30px 0; text-align: center;}
+.wrap-8 a{color: #ff0072;margin-top: 10px; display: inline-block;}
 .wrap-8 a:hover{color: #0cebeb;}
 .wrap-8 h2{font-size: 40px; margin-bottom: 30px; background: linear-gradient(to right, #a21af0,#0fd5aa, #7700ffea);background-clip: text;color: transparent;}
 .wrap-8 h3{font-size: 20px; margin: 15px 0;}
 .wrap-8 p{font-size: 18px;}
 .wrap-8 img{max-width: 100%; height: auto;}
 
-.wrap-8 .social a{width: 50px; height: 50px; border-radius: 50%;background: #0f0c29; color: #ff0072; display: grid; place-items: center; text-align: center; margin: 5px; transition: all 1s ease;}
+.wrap-8 .social a{width: 50px; height: 50px; border-radius: 50%;background: #ff0072; color: #0f0c29; display: grid; place-items: center; text-align: center; margin: 5px; transition: all 1s ease-in-out;}
 .wrap-8 .social a:hover{background: #0fd5aa; color: #0f0c29;}
 .wrap-8 .social{margin-top: 20px;}
 

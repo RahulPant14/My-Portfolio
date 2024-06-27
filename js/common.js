@@ -7,6 +7,10 @@ $(function(){
         $(".wrap-7 .tabs a").removeClass("active");
         $(this).addClass("active");
 
+        if($(this).text()=="ALL"){
+            $(".wrap-7 .all").fadeIn();
+        }
+
         if($(this).text()=="HTML CSS & JS"){
             $(".wrap-7 .psd-html").fadeIn();
             $(".wrap-7 .js").fadeOut(0);

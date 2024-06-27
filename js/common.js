@@ -1,5 +1,21 @@
 $(function(){
 
+    
+
+    $(".wrap-1 .toggle").click(function(){
+        $(this).toggleClass("active");
+        $(".wrap-1 .collapse").slideToggle();
+    });
+
+    
+    if (screen.width < 768) {
+        $(".wrap-1 .collapse a").click(function(e){
+            e.preventDefault();
+            $(".wrap-1 .collapse").slideUp(); 
+            $(".wrap-1 .toggle").removeClass("active");
+        });
+    }
+
 
 
     $(".wrap-7 .tabs a").click(function(e){

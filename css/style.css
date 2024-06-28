@@ -238,13 +238,17 @@ body{
     
     .wrap-4 .btn-grd {margin: 10px 0;}
     .wrap-2 img {width: 100%; margin-bottom: 20px;}
-    .wrap-3 .order-1 h2 {font-size: 30px; color:#ff0072 ;}
+    .wrap-2 p {font-size: 20px;}
+    .wrap-3 .order-1 h2 {font-size: 30px; color:#ff0072 ;margin-top: 20px;}
     .wrap-3 .text-r {text-align: center; padding-top: 0;}
     .wrap-5 h2 {margin-bottom: 0px; font-size: 30px;}
+    .wrap-5 h3 {font-size: 20px;}
     .wrap-5 .border-l {margin: 24px 0 20px 15px;}
+    .wrap-5 .fa {position: absolute; left: -44px; top: 21px;}    
     .wrap-6 h2 {font-size: 30px;}
     .wrap-7 .tabs{ overflow: auto; white-space: nowrap;}
     .wrap-7 h2 {font-size: 30px;}
+    .wrap-7 .heading h3 {font-size: 16px;}
    
 }
 

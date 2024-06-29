@@ -9,8 +9,7 @@ $(function(){
 
     
     if (screen.width < 768) {
-        $(".wrap-1 .collapse a").click(function(e){
-            e.preventDefault();
+        $(".wrap-1 .collapse a").click(function(){
             $(".wrap-1 .collapse").slideUp(); 
             $(".wrap-1 .toggle").removeClass("active");
         });

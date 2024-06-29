@@ -54,7 +54,7 @@ body{
 .wrap-1 ul li a{color: #a59898d8; padding: 10px 5px; }
 .wrap-1 ul li a:hover{border-bottom: 2px solid #0cebeb; color: #fff;}
 .wrap-1 a .active{border-bottom: 2px solid #0cebeb; color: #fff;}
-.wrap-1 .toggle span{width: 70px; height: 5px; background: #0cebeb; display: block; margin: 10px;}
+.wrap-1 .toggle span{width: 50px; height: 5px; background: #0cebeb; display: block; margin: 10px;}
 .wrap-1 .toggle{display: none;}
 /* .wrap-1 .collapse a{display: block;} */
 
@@ -140,18 +140,22 @@ body{
 .wrap-7 .discription a{padding: 15px; background: transparent; color: #ff0072; border: 1px solid #ff0072 ; border-radius: 30px; display: inline-block;transition: all .5s ease-in-out;}
 .wrap-7 .discription a:hover{background: #ff0072; color: #0f0c29;}
 .wrap-7 .position-r:hover .discription{transform: none;}
+.wrap-7 .sass, .js, .fetch, .bootstrap{display: none;} 
 
 
 .wrap-7 .bluerex{background: url("../img/bluerex.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .bluerex:hover{background-position-y: bottom;  transition: all 5s ease-in;}
 .wrap-7 .iddo{background: url("../img/iddo.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .iddo:hover{background-position-y: bottom;  transition: all 5s ease-in;}
-.wrap-7 .inodino{background: url("../img/bluerex.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
-.wrap-7 .inodino:hover{background-position-y: bottom;  transition: all 5s ease-in;}
+.wrap-7 .inodino{background: url("../img/inodno.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .inodino:hover{background-position-y: bottom; transition: all 5s ease-in;}
 .wrap-7 .ave{background: url("../img/sass.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .ave:hover{background-position-y: bottom;  transition: all 5s ease-in;}
 .wrap-7 .bizland{background: url("../img/bootstrap.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .bizland:hover{background-position-y: bottom;  transition: all 5s ease-in;}
+.wrap-7 .calculator{background: url(../img/calculator.png) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .stopwatch{background: url(../img/stopwatch.png) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .fetchapi{background: url(../img/weatherapi.png) no-repeat center/cover;width: 100%; height: 350px}
 
 .wrap-8{background: #201961; color: #ff0072; padding: 30px 0; text-align: center;}
 .wrap-8 a{color: #ff0072;margin-top: 10px; display: inline-block;}
@@ -214,7 +218,7 @@ body{
     .col-m-12{ flex-basis:100%; max-width: 100%;}
      
     .wrap-1 .toggle{display: block;}
-    .wrap-1 .collapse{position: absolute; left: 0; right: 0; top: 50px; background: #0f0c29; padding: 15px; z-index: 10;}
+    .wrap-1 .collapse{display: none; position: absolute; left: 0; right: 0; top: 50px; background: #0f0c29; padding: 15px; z-index: 10;}
     .wrap-1 .collapse ul{ flex-flow: column wrap;}
     .wrap-1 .collapse li{margin: 20px 0;}
     .wrap-2 .order-1{order: -1;}

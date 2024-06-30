@@ -17,6 +17,7 @@ body{
 }
 
 /* 12 Grids */
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -126,7 +127,7 @@ body{
 .wrap-7 h3{color: #0cebeb;}
 .wrap-7 .tabs li{margin: 0 10px;}
 .wrap-7 .tabs li a{padding: 15px; background: #0cebeb; color: #0f0c29; border-radius: 30px; display: inline-block;transition: all .5s ease-in-out;}
-.wrap-7 .tabs li a:hover{background:linear-gradient(to right, #a21af0,#d50fc0, #ff0072); color: #0cebeb;transition: all .5s ease-in;}
+.wrap-7 .tabs .active{background:linear-gradient(to right, #a21af0,#d50fc0, #ff0072); color: #0cebeb;transition: all .4s ease-in;}
 .wrap-7 .position-r{position: relative;cursor: pointer; margin: 15px 0; overflow: hidden;}
 .wrap-7 .discription{position: absolute; left: 0; right: 0; bottom: 0; padding: 20px; text-align: center;background: rgba(15, 12, 41,.69); color: #fff; transform: scale(0,1);transition: all  800ms ease 0.3s;}
 .wrap-7 img{max-width: 100%; height: 350px;}
@@ -136,7 +137,6 @@ body{
 .wrap-7 .discription a{padding: 15px; background: transparent; color: #ff0072; border: 1px solid #ff0072 ; border-radius: 30px; display: inline-block;transition: all .5s ease-in-out;}
 .wrap-7 .discription a:hover{background: #ff0072; color: #0f0c29;}
 .wrap-7 .position-r:hover .discription{transform: none;}
-/* .wrap-7 .sass, .js, .fetch, .bootstrap{display: none;}  */
 .wrap-7 .d-none{display: none;}
 
 
@@ -161,9 +161,7 @@ body{
 .wrap-8 h3{font-size: 20px; margin: 15px 0;}
 .wrap-8 p{font-size: 18px;}
 .wrap-8 li{margin: 10px 0;}
-/* .wrap-8 img{max-width: 100%; height: auto;} */
 .wrap-8 img {max-width: 350px; height: 350px; border-radius: 50%;}
-
 .wrap-8 .social a{width: 50px; height: 50px; border-radius: 50%;background: #ff0072; color: #0f0c29; display: grid; place-items: center; text-align: center; margin: 5px; transition: all 1s ease-in-out;}
 .wrap-8 .social a:hover{background: #0fd5aa; color: #0f0c29;}
 .wrap-8 .social{margin-top: 20px;}
@@ -171,6 +169,7 @@ body{
 .wrap-9{background: #0f0c29; color:#ff0072; padding: 20px 0;}
 
 /* responsive */
+
 @media screen and (max-width:1220px){
 
     .wrap-5 .border-l{margin: 24px 0 20px 40px}

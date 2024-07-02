@@ -84,9 +84,9 @@ header{
 .wrap-2 .cntc a:hover{background: #ff0072;color: #fff; border:  2px solid #ff0072;}
 .wrap-2 img{width: 350px; height: 350px; border-radius: 50%;}
 
-.wrap-3{background: linear-gradient(to right, #15263e,#194077, #1d6ad6);color: transparent;color: #fff;}
+.wrap-3{background:linear-gradient(to right, #24243e, #302b63, #0f0c29) ;color: #fff;}
 .wrap-3 .gap-t{padding-top: 50px;}
-.wrap-3 h2{margin-bottom: 25px; color: #3994c9;}
+.wrap-3 h2{margin-bottom: 25px; color: #ff0072;}
 .wrap-3 .desig{margin-bottom: 15px; color: #25e90b;}
 .wrap-3 .text-r{text-align: right;}
 .wrap-3 .line-height{line-height: 30px;}

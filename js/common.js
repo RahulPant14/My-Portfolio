@@ -32,12 +32,14 @@ $(function(){
             $(".wrap-7 .bootstrap").fadeOut(0);
             $(".wrap-7 .fetch").fadeOut(0);
             $(".wrap-7 .sass").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeOut(0);
         }
         else if($(this).text()=="HTML SASS & JS"){
             $(".wrap-7 .psd-html").fadeOut(0);
             $(".wrap-7 .bootstrap").fadeOut(0);
             $(".wrap-7 .js").fadeOut(0);
             $(".wrap-7 .fetch").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeOut(0);
             $(".wrap-7 .sass").fadeIn();
          }
         else if($(this).text()=="FETCH API"){ 
@@ -45,6 +47,7 @@ $(function(){
             $(".wrap-7 .bootstrap").fadeOut(0);
             $(".wrap-7 .sass").fadeOut(0);
             $(".wrap-7 .js").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeOut(0);
             $(".wrap-7 .fetch").fadeIn();
         }
         else if($(this).text()=="JAVASCRIPT"){
@@ -52,6 +55,7 @@ $(function(){
             $(".wrap-7 .sass").fadeOut(0);
             $(".wrap-7 .fetch").fadeOut(0);
             $(".wrap-7 .bootstrap").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeOut(0);
             $(".wrap-7 .js").fadeIn();
          }
          else if($(this).text()=="BOOTSTRAP"){
@@ -59,7 +63,16 @@ $(function(){
             $(".wrap-7 .js").fadeOut(0);
             $(".wrap-7 .psd-html").fadeOut(0);
             $(".wrap-7 .fetch").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeOut(0);
             $(".wrap-7 .bootstrap").fadeIn();
+         }
+         else if($(this).text()=="REACT JS"){
+            $(".wrap-7 .sass").fadeOut(0);
+            $(".wrap-7 .js").fadeOut(0);
+            $(".wrap-7 .psd-html").fadeOut(0);
+            $(".wrap-7 .fetch").fadeOut(0);
+            $(".wrap-7 .bootstrap").fadeOut(0);
+            $(".wrap-7 .reactjs").fadeIn();
          }
     });
 

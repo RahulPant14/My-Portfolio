@@ -202,6 +202,8 @@ body{
 .wrap-7 .calculator{background: url(../img/calculator.webp) no-repeat center/cover;width: 100%; height: 350px}
 .wrap-7 .stopwatch{background: url(../img/stopwatch.webp) no-repeat center/cover;width: 100%; height: 350px}
 .wrap-7 .fetchapi{background: url(../img/weatherapi.webp) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .hydra{background: url(../img/React-project-bg.png) no-repeat top/cover;width: 107%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .hydra:hover{background-position-y: bottom;  transition: all 5s ease-in;}
 
 .wrap-8{background: #0f0c29; color: #fff; padding: 30px 0; text-align: center;}
 .wrap-8 a{color: #fff;margin-top: 10px; display: inline-block;}
